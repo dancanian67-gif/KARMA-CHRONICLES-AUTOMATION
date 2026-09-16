@@ -20,6 +20,7 @@ from .replicate_image import (
     ReplicateTransport,
     ReplicateTransportResponse,
 )
+from .replicate_transport import ReplicateHttpTransport
 from .runtime import (
     LIVE_PROVIDER_AUTH_ENV,
     authorize_and_resolve_provider_credential,
@@ -49,6 +50,7 @@ __all__ = [
     "ProviderRetryInfo",
     "ProviderSecurityPolicy",
     "ProviderValidationError",
+    "ReplicateHttpTransport",
     "ReplicateImageProvider",
     "ReplicateTransport",
     "ReplicateTransportResponse",
